@@ -90,7 +90,7 @@
                 /* you can delete the line below if you'd prefer to not use an image */
                 background-size: cover;
                 color: #fceaff;
-                background-image: url('assests/website-background.png');
+                background-image: url('assests/website-background-pt2.png');
             }
 
             * {
@@ -109,11 +109,11 @@
     the other elements, you will need to move that div outside
     of the container */
             #container {
-                max-width: 900px;
+                max-width: 600px;
                 /* this is the width of your layout! */
                 /* if you change the above value, scroll to the bottom
       and change the media query according to the comment! */
-                margin: 0 auto;
+                margin:  0 auto;
                 /* this centers the entire page */
             }
 
@@ -122,6 +122,7 @@
             #container a {
                 color: #ED64F5;
                 font-weight: bold;
+                
                 /* if you want to remove the underline
       you can add a line below here that says:
       text-decoration:none; */
@@ -193,7 +194,8 @@
             /* this is the color of the main content area,
     between the sidebars! */
             main {
-                background-color: #43256E;
+                background-image: url('assests/container-background-pt2.png');
+                background-size: cover;
                 flex: 1;
                 padding: 20px;
                 order: 2;
@@ -265,7 +267,7 @@
     "max-width" value below
     */
 
-            @media only screen and (max-width: 800px) {
+            @media only screen and (max-width: 500px) {
                 #flex {
                     flex-wrap: wrap;
                 }
